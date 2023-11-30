@@ -1,3 +1,7 @@
+/*
+Discord artık sadece ip üzerinden değil hesaptan da rate limit atıyor galiba bu yüzden hesap tokenleri açıp (10-15) adet bunlara math.random yapabilirsiniz proxydeki atama mantığı ile aynı bunu burada kullanmadım ama biraz mantıkla yapabilirsiniz
+*/
+
 const request = require('request');
 const { Client } = require('discord.js-selfbot-v13');
 const client = new Client({ checkUpdate: false });
