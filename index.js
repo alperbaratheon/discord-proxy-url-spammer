@@ -39,7 +39,7 @@ async function spam() {
   let proxy = datax[proxiessync]
 
   if (client.guilds.cache.get(client.config.Server).vanityURLCode == client.config.Url) return;
-  const vuramk = {
+  const iconquered = {
     url: `https://discord.com/api/v8/guilds/${client.config.Server}/vanity-url`,
     body: { code: `${client.config.Url}` },
     json: true,
@@ -47,7 +47,7 @@ async function spam() {
     proxy: "http://" + proxy,
     headers: { "Authorization": `${client.config.Token}` }
   };
-  request(vuramk, async (err, res, body) => {
+  request(iconquered, async (err, res, body) => {
     if (err) {
       // console.log('Hata:' + proxy + err)
       return;
